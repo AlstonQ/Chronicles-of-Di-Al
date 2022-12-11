@@ -30,7 +30,7 @@ $("#submitAnswer").click(function () {
     var result = nameTrivia.toString().toLowerCase();
     var finalResult = result.includes("di-al");
     if (finalResult == true) {
-        window.location.href = "/anotherclue";
+        window.location.href = "/Chronicles-of-Di-Al/anotherclue";
     }
     else {
         document.getElementById("errorHandler").innerHTML = "Wrong Answer. Please Try again.";
