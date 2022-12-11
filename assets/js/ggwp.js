@@ -30,7 +30,7 @@ $("#submitAnswer").click(function () {
     var result = movieTrivia.toString().toLowerCase();
     var finalResult = result.includes("chutiya saala");
     if (finalResult == true) {
-        window.location.href = "/almostthere";
+        window.location.href = "/Chronicles-of-Di-Al/almostthere";
     }
     else {
         document.getElementById("errorHandler").innerHTML = "Wrong Answer. Please Try again.";
