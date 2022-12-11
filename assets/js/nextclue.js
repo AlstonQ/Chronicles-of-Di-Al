@@ -26,7 +26,7 @@ body.addEventListener('click', function () {
 
 // Double Click
 $(".this-pics").dblclick(function () {
-    window.location.href = "/moveon";
+    window.location.href = "/Chronicles-of-Di-Al/moveon";
 });
 
 console.clear();
