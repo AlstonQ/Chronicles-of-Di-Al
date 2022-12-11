@@ -26,7 +26,7 @@ body.addEventListener('click', function () {
 
 // Double Click
 $("#dblClick").dblclick(function () {
-    window.location.href = "/number3";
+    window.location.href = "/Chronicles-of-Di-Al/number3";
 });
 
 console.clear();
