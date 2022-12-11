@@ -26,7 +26,7 @@ body.addEventListener('click', function () {
 
 // Double Click
 $(".even-one").dblclick(function () {
-    window.location.href = "/chauthaclue";
+    window.location.href = "/Chronicles-of-Di-Al/chauthaclue";
 });
 
 console.clear();
