@@ -30,7 +30,7 @@ $("#submitAnswer").click(function () {
     var result = bondTrivia.toString().toLowerCase();
     var finalResult = result.includes("ed");
     if (finalResult == true) {
-        window.location.href = "/thisisit";
+        window.location.href = "/Chronicles-of-Di-Al/thisisit";
     }
     else {
         document.getElementById("errorHandler").innerHTML = "Wrong Answer. Please Try again.";
