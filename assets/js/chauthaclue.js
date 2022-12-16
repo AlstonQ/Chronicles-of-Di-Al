@@ -28,7 +28,7 @@ body.addEventListener('click', function () {
 $("#submitAnswer").click(function () {
     var firstTimeOut = document.getElementById("firstTimeOutside").value;
     var result = firstTimeOut.toString().toLowerCase();
-    var finalResult = result.includes("manali-mysore-ahmedabad");
+    var finalResult = result.includes("manali-mysore-kolad-ahmedabad");
     if (finalResult == true) {
         window.location.href = "/Chronicles-of-Di-Al/nextclue";
     }
